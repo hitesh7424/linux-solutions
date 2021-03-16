@@ -1,1 +1,9 @@
- 
+ I USED THIS IN GARUDA LINUX / ARCH LINUX =>
+
+        >set prefix=(drive name)/@/boot/grub
+        >insmod normal
+        >normal
+        
+NOW YOUR GRUB WILL BE RESCUED
+    
+    THANKS!
