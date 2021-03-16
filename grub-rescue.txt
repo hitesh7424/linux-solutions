@@ -1,0 +1,42 @@
+I USED THIS IN GARUDA LINUX / ARCH LINUX =>
+    
+    Let's start =>
+
+        >check which drive has linux install by using 'ls' command
+        >ls (drive name)
+        >set prefix=(drive name)/@/boot/grub
+        >insmod normal
+        >normal
+
+If this not work you can use following commands =>
+
+        >check which drive has linux install by using 'ls' command
+        >ls (drive name)
+        >set prefix=(drive name)/boot/grub
+        >insmod normal
+        >normal
+
+
+
+NOW YOUR GRUB WILL BE RESCUED
+
+
+    This is not permanent we have do more
+
+    
+    You will be get boot in linux 
+    now open terminal in root mode
+    and input following commands=>        
+
+        >grub-mkconfig -o /boot/grub/grub.cfg
+                    or
+         grub2-mkconfig -o /boot/grub2/grub.cfg
+
+        >grub-install /dev/sda
+                or
+          grub2-install /dev/sda
+
+After this grub will completely fixed.
+
+    
+    THANKS!
