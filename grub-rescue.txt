@@ -29,12 +29,10 @@ NOW YOUR GRUB WILL BE RESCUED
     and input following commands=>        
 
         >grub-mkconfig -o /boot/grub/grub.cfg
-                    or
-         grub2-mkconfig -o /boot/grub2/grub.cfg
-
         >grub-install /dev/sda
-                or
-          grub2-install /dev/sda
+                    or
+        >grub2-mkconfig -o /boot/grub2/grub.cfg
+        >grub2-install /dev/sda
 
 After this grub will completely fixed.
 
