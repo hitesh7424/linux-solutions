@@ -1,3 +1,3 @@
 # linux-solutions
 \
-how to fix grub rescue > in grub-rescue.txt file
+I will put some linux solutions and tricks
