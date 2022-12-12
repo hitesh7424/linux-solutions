@@ -10,4 +10,4 @@ opening pyproject.toml and replacing:
 
 install with:
   
-    pip install ./D3DShot-dev
+    pip install ./D3DShot-0.1.5
